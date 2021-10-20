@@ -46,4 +46,41 @@ Niezbędną rzeczy by móc grać w grę będzie za tem dobre połączenie siecio
 
 ![Schemat działania game in cloud](cloud.jpeg)
 
+## Działania możliwe do podjęcia w grze
+
+Ze względu na główne założenia przy tworzeniu gry, oraz jej klimat i fabuła umieszczona w świecie Johna Wicka. Zadaniem gracza będzie przyjmowanie zleceń. Odbywać się będzie ono na przez randomowe przychodzone połączenia od NPC-ów, zgłaszanie się na tablicy zleceń, szukaniu zleceń w klubach, sklepach, dilerach itp. oraz przez rozmowy z innymi graczami.
+Gracz będzie miał możliwość zakupu nowej broni i uzupełnienia zdrowia w wyznaczonych miejscach na mapie. Na tej samej zasadzie będzie możliwe podjęcie walki z postacią sterowaną przez komputer lub innym graczem. Wykonanie zlecenia będzie skutkowało uzyskaniem punktów RP, XP oraz kredytów. Punkty RP umożliwiają dostęp do coraz to trudniejszych misjii, punkkty XP dostarczają możliwości rozwijania postaci w kilku gałęziach rozwoju (szybkość, inteligencja, wytrzymałość) oraz będzie odblokowywała bronie, pojazdy, domy zaś kredyty umożliwią kupno broni domów samochodów, zwierząt,przekąsek, zapłaceniu łapówki czy też mandatu albo podzieleniu się kredytami z potrzbującymi.
+
+
+
+![Ogólny wykres UML rzeczy w projekcie](ogólny.png)
+
+
+
+
+![Schemat wyglądu postaci](ubranie.jpg)
+
+
+Scenariusz tworzenia konta
+=============
+
+Po wypełnieniu formularza użytkownik staje się częścią projektu i dostaje pełne konto wraz ze swoją postacią.
+
+User registration
+-----------
+* Navigate to the configuration page
+* User must type e-mail, login and password
+* Creating account in database 
+* Confirmation by e-mail
+* Log into account
+
+
+## Cel pierwszej działającej wersji systemu
+
+- Bezpośrednie połączenie z serwerem 
+- Możliwość stworzenia konta
+- Załadowanie mapy świata z serwera 
+- Możliwość przemieszczania się po tym świecie
+- Przetestowanie broni, możliwości jazdy,
+interakcji z NPC-em lub zwierzakiem.
 
