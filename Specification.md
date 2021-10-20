@@ -1,4 +1,5 @@
-# Specyfikacja wymagań John Wick The Game (JWTG)
+ Specyfikacja wymagań John Wick The Game (JWTG)
+=================
 
 JWTG jest projektem gry wieloosobowej mającej na celu zabić każdą sekundę nudy.Jest to grą typu RPG w której gracz może stać się słynnym zabójcą z ołówkiem w ręku. Cel gracza jest prosty stać się legendą i zastraszać innych. Projekt zakłada poruszanie się po świecie w czasie rzeczywistym świecie generowantm przez serwer oraz walki turowe z NPC-ami lub innymi graczami.
 
@@ -8,22 +9,24 @@ JWTG jest projektem gry wieloosobowej mającej na celu zabić każdą sekundę n
 
 
 
-## Spis treści
+ Spis treści
+=================
 
 <!--ts-->
-* [Specyfikacja wymagań John Wick The Game (JWTG)](#Specyfikacja wymagań John Wick The Game (JWTG))
-  * [Spis treści](#Spis treści)
-    * [Architektura gry](#Architektura gry)
-    * [Technologie](#Technologie)
-    * [Działania możliwe do podjęcia w grze](#Działania możliwe do podjęcia w grze)
-  * [Scenariusz tworzenia konta](#Scenariusz tworzenia konta)
-    * [User registration](#User registration)
-    * [Cel pierwszej działającej wersji systemu](#Cel pierwszej działającej wersji systemu)
-* [Instalacja](#Instalacja)
-* [Współpraca](#Współpraca)
+- [Specyfikacja wymagań John Wick The Game (JWTG)](#specyfikacja-wymagań-john-wick-the-game-jwtg)
+  - [Spis treści](#spis-treści)
+     - [Architektura gry](#architektura-gry)
+     - [Technologie](#technologie)
+     - [Działania możliwe do podjęcia w grze](#działania-możliwe-do-podjęcia-w-grze)
+  - [Scenariusz tworzenia konta](#scenariusz-tworzenia-konta)
+     - [User registration](#user-registration)
+     - [Cel pierwszej działającej wersji systemu](#cel-pierwszej-działającej-wersji-systemu)
+  - [Instalacja](#instalacja)
+  - [Współpraca](#współpraca)
 <!--te-->
 
-## Architektura gry
+ Architektura gry
+=================
 
 Opierać się będzie na połączeniu klient-serwer. Użytkownik będzie miał  możliwość poruszania się po interfejsie graficznym, świecie wygenerowanym przez serwer.  Klient będzie interfejsem do serwera jego głównymi cechami będą takie elementy jak:
 
@@ -40,7 +43,8 @@ Serwer natomiast będzie symulował cały świat, a więc będzie obsługiwał e
 - Zarządzenie kontami graczy
 - Przekazywanie klientom stanu własnej postaci oraz otoczenia
 
-## Technologie
+ Technologie
+=================
 Klient będzie pisany w języku C++ oraz QT. Obsługi komunikacji z serwerem oraz interfejsem graficznym zostanie wykorzystana biblioteka SFML.
 
 Serwer zostanie stworzony za pomocą języka Python. Obsługę połączeń obsłuży wbudowana biblioteka `socket`.
@@ -58,7 +62,8 @@ Niezbędną rzeczy by móc grać w grę będzie za tem dobre połączenie siecio
 
 ![Schemat działania game in cloud](cloud.jpeg)
 
-## Działania możliwe do podjęcia w grze
+ Działania możliwe do podjęcia w grze
+=================
 
 Ze względu na główne założenia przy tworzeniu gry, oraz jej klimat i fabuła umieszczona w świecie Johna Wicka. Zadaniem gracza będzie przyjmowanie zleceń. Odbywać się będzie ono na przez randomowe przychodzone połączenia od NPC-ów, zgłaszanie się na tablicy zleceń, szukaniu zleceń w klubach, sklepach, dilerach itp. oraz przez rozmowy z innymi graczami.
 Gracz będzie miał możliwość zakupu nowej broni i uzupełnienia zdrowia w wyznaczonych miejscach na mapie. Na tej samej zasadzie będzie możliwe podjęcie walki z postacią sterowaną przez komputer lub innym graczem. Wykonanie zlecenia będzie skutkowało uzyskaniem punktów RP, XP oraz kredytów. Punkty RP umożliwiają dostęp do coraz to trudniejszych misjii, punkkty XP dostarczają możliwości rozwijania postaci w kilku gałęziach rozwoju (szybkość, inteligencja, wytrzymałość) oraz będzie odblokowywała bronie, pojazdy, domy zaś kredyty umożliwią kupno broni domów samochodów, zwierząt,przekąsek, zapłaceniu łapówki czy też mandatu albo podzieleniu się kredytami z potrzbującymi.
@@ -87,7 +92,8 @@ User registration
 * Log into account
 
 
-## Cel pierwszej działającej wersji systemu
+ Cel pierwszej działającej wersji systemu
+=================
 
 - Bezpośrednie połączenie z serwerem 
 - Możliwość stworzenia konta
@@ -95,8 +101,9 @@ User registration
 - Możliwość przemieszczania się po tym świecie
 - Przetestowanie broni, możliwości jazdy,
 interakcji z NPC-em lub zwierzakiem.
-## Instalacja
 
+Instalacja
+=================
 Cały program będzie zainstalowany na "superkomputerze" który będzie streamował rozgrywkę dla użytkowników:
 
 Serwer:
@@ -121,7 +128,8 @@ cd build
 jwtg-game
 ```
 
-## Współpraca
+ Współpraca
+=================
 
 Praca nad projektem jest otwarta dla każdego. W issue znajdziemy zadania do zrobienia, w trakcie oraz ukończone. Programista będzie miał za zadanie wykonać wypisane zadania i uzyskaćpozytywny wynik w testach kodu. Po spełnieniu wymogów kod trafi na branch master gdzie zostanie dodana do całości. Każda osoba chętna do rozwoju projektów i wniesieniu nowych pomysłów jest mile widziana.
 Cel projektu to dostarczenie rozrywki, śmiechu i interakcji oraz umożliwić realizacje swoich pomysłów oraz rozwoju swoich umiejętności programistycznych.
