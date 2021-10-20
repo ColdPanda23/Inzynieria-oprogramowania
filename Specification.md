@@ -83,4 +83,32 @@ User registration
 - Możliwość przemieszczania się po tym świecie
 - Przetestowanie broni, możliwości jazdy,
 interakcji z NPC-em lub zwierzakiem.
+## Instalacja
+
+Cały program będzie zainstalowany na "superkomputerze" który będzie streamował rozgrywkę dla użytkowników:
+
+Serwer:
+Do uruchomienia konieczny będzie Python 
+
+```
+
+cd jwtg\serwer
+python Main.py
+```
+
+Klient:
+Do uruchomienia konieczny jest kompilator języka C++ oraz QT, system budowania kodu CMake.
+
+```
+
+cd jwtg\klient
+mkdir build
+cmake -S . -B build/
+cmake --build build/
+cd build
+jwtg-game
+```
+
+
+
 
