@@ -10,7 +10,18 @@ JWTG jest projektem gry wieloosobowej mającej na celu zabić każdą sekundę n
 
 ## Spis treści
 
-[TOC]
+<!--ts-->
+* Specyfikacja wymagań John Wick The Game (JWTG)
+  * Spis treści
+    * Architektura gry
+    * Technologie
+    * Działania możliwe do podjęcia w grze
+  * Scenariusz tworzenia konta
+    * User registration
+    * Cel pierwszej działającej wersji systemu
+* Instalacja
+* Współpraca
+<!--te-->
 
 ## Architektura gry
 
