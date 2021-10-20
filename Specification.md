@@ -11,6 +11,7 @@ JWTG jest projektem gry wieloosobowej mającej na celu zabić każdą sekundę n
 ## Spis treści
 
 [TOC]
+
 ## Architektura gry
 
 Opierać się będzie na połączeniu klient-serwer. Użytkownik będzie miał  możliwość poruszania się po interfejsie graficznym, świecie wygenerowanym przez serwer.  Klient będzie interfejsem do serwera jego głównymi cechami będą takie elementy jak:
@@ -108,6 +109,14 @@ cmake --build build/
 cd build
 jwtg-game
 ```
+
+## Współpraca
+
+Praca nad projektem jest otwarta dla każdego. W issue znajdziemy zadania do zrobienia, w trakcie oraz ukończone. Programista będzie miał za zadanie wykonać wypisane zadania i uzyskaćpozytywny wynik w testach kodu. Po spełnieniu wymogów kod trafi na branch master gdzie zostanie dodana do całości. Każda osoba chętna do rozwoju projektów i wniesieniu nowych pomysłów jest mile widziana.
+Cel projektu to dostarczenie rozrywki, śmiechu i interakcji oraz umożliwić realizacje swoich pomysłów oraz rozwoju swoich umiejętności programistycznych.
+
+Just do it!
+
 
 
 
